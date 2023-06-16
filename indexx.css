@@ -6,7 +6,7 @@
     left: 0;
     padding: 10px;
     text-align: center;
-    color: white;
+    color: rgb(255, 187, 0);
     transition: all 0.0s ease-out;
     backdrop-filter: blur(10px);
     background-color: rgba(0, 0, 0, 0.5);
@@ -20,14 +20,15 @@
     
   }
   .btn {
-      color: white;
+      color: rgb(255, 255, 255);
       background: black;
       background-color: rgba(0, 0, 0, 0.4);
       border: none;
       padding: 15px;
       width: 150px;
       border-radius: 40px;
-      margin-left: 20px;   
+      margin-left: 20px;
+      
 }
   .image {
     width: 100%;
@@ -46,7 +47,4 @@
     z-index: -1;
     position: fixed;
 
-  }
-  .audio-player{
-    display: none;
   }
